@@ -1,0 +1,15 @@
+Package: WCR
+Title: Worst Case Randomization Test for Testing Level of Clustering
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Yong",
+           family = "Cai",
+           role = c("aut", "cre"),
+           email = "yongcai2023@u.northwestern.edu")
+Maintainer: Yong Cai <yongcai2023@u.northwestern.edu>		   
+Description: This package contains the function which implements the Worst Case Randomization Test described in Y. Cai (2021) A Modified Randomization Test for the Level of Clustering. The test can be used as a robustness check to assess the plausibility of the level of clustering chosen by the user, against a coarser level of clustering that is possible. The method is designed for setttings with few clusters. 
+License: `use_mit_license()`
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2.9000
